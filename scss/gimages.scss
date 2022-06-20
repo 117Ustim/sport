@@ -1,0 +1,25 @@
+@import "style.scss";
+
+.block-images {
+    width: 45%;
+     
+    img {
+  height: 420px;
+}
+
+}
+
+.block-images-text {
+    float: left;
+    width: 55%;
+    color:$navColor ;
+     font-size: 14px;
+   p {
+        width: 95%;
+        padding: 20px 10px;
+        
+        
+    }
+    
+}
+

@@ -1,0 +1,56 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body, html {
+  background: #24282b;
+  box-sizing: border-box;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.container {
+  width: 100%;
+  min-height: 100px;
+}
+
+.block-trener {
+  width: 100%;
+  min-height: 100px;
+  padding: 40px 0;
+}
+.block-trener .trener-nav {
+  width: 20%;
+  float: left;
+}
+.block-trener .trener-nav img {
+  width: 206px;
+  height: 144px;
+}
+.block-trener .trener-nav span {
+  font-size: 30px;
+}
+.block-trener .trener-nav p {
+  color: rgb(154, 150, 150);
+  width: 80%;
+  margin: -23px 40px;
+  font-size: 10px;
+}
+
+.ip-2 {
+  text-align: center;
+}
+.ip-2 .menu-nav span {
+  font-size: 12px;
+  display: inline-block;
+  width: 120px;
+}
+
+.ip-3 {
+  padding: 5px 20px;
+}
+
+/*# sourceMappingURL=trener.css.map */

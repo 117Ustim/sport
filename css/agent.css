@@ -1,0 +1,42 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body, html {
+  background: #24282b;
+  box-sizing: border-box;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.container {
+  width: 100%;
+  min-height: 100px;
+}
+
+.block-agent {
+  width: 100%;
+  padding: 40px 0;
+  min-height: 200px;
+}
+.block-agent .block-gym {
+  width: 33.3%;
+  float: left;
+}
+.block-agent .block-gym img {
+  width: 390px;
+  height: 227px;
+}
+.block-agent .block-gym span {
+  font-size: 24px;
+}
+.block-agent .block-gym p {
+  color: rgb(154, 150, 150);
+  width: 80%;
+  margin: 18px 40px;
+}
+
+/*# sourceMappingURL=agent.css.map */

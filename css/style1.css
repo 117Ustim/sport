@@ -1,0 +1,71 @@
+header {
+  margin: 200px;
+  font-family: Cuprum, Arial, Helvetica, sans-serif;
+}
+header .dws-menu ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+header .dws-menu ul li {
+  position: relative;
+  border-right: 1px solid #1257ea;
+}
+header .dws-menu ul li a:hover {
+  background: rgb(202, 128, 128);
+  color: #fff;
+  box-shadow: 1px 5px 10px -5px black;
+  transition: all 0.3s ease;
+}
+header .dws-menu ul li:first-child {
+  border-left: 2px solid #1257ea;
+}
+header .dws-menu ul li:last-child {
+  border-right: 2px solid #1257ea;
+}
+header .dws-menu ul li a {
+  display: block;
+  background: rgb(156, 147, 147);
+  padding: 15px 20px 15px 20px;
+  font-size: 18px;
+  color: aqua;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+}
+header .dws-menu ul li a a i.fa {
+  position: absolute;
+  top: 15px;
+  left: 12px;
+}
+header .dws-menu ul li a img {
+  width: 20px;
+  height: 20px;
+}
+
+.dws-menu li ul {
+  display: block;
+  position: absolute;
+  min-width: 150px;
+  display: none;
+}
+.dws-menu li ul li {
+  border: 1px solid #dd8119;
+}
+.dws-menu li ul li a {
+  padding: 10px;
+  text-transform: none;
+  background: rgb(183, 172, 211);
+}
+
+.dws-menu li ul li ul {
+  position: absolute;
+  right: -150px;
+  top: 0;
+}
+
+.dws-menu li:hover > ul {
+  display: block;
+}
+
+/*# sourceMappingURL=style1.css.map */

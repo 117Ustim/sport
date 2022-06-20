@@ -1,0 +1,26 @@
+$bgColor:#24282b;
+$H1Color:#febd39;
+$footColor:#fff;
+$navColor: rgb(154, 150, 150);
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body,html {
+    background: $bgColor;
+    box-sizing: border-box;
+
+    
+}
+
+
+.text-center {
+text-align: center;
+}
+
+.container {
+    width: 100%;
+    min-height: 100px;
+}

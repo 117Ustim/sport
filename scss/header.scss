@@ -1,0 +1,134 @@
+@import "style.scss";
+
+.block-nav {
+  height: 70px;
+
+  background-image: linear-gradient(180deg, #24282b, #50565b);
+  .block-logo {
+    padding: 7px 30px;
+    width: 20%;
+    float: left;
+    img {
+      width: 55px;
+      height: 55px;
+    }
+    h5 {
+      font-size: 16px;
+      color: $navColor;
+      position: absolute;
+      padding: 14px;
+    }
+    span {
+      color: $H1Color;
+    }
+  }
+
+  .menu-nav {
+    width: 90%;
+    list-style-type: none;
+
+    li {
+      display: inline-block;
+      margin: 15px 50px;
+    }
+
+    a {
+      color: $navColor;
+      font-size: 16px;
+      text-decoration: none;
+      position: relative;
+    }
+    a::before {
+      content: "";
+      bottom: 0;
+      left: 0;
+      position: absolute;
+      width: 0%;
+      height: 1.5px;
+      background: $H1Color;
+      transition: 0.3s;
+    }
+    a:hover:before {
+      width: 100%;
+    }
+
+    a:hover {
+      color: rgb(250, 246, 246);
+    }
+    a:active {
+      color: $navColor;
+    }
+  }
+}
+
+.header-logo {
+  height: 550px;
+  background-image: url(../img/gym-header.png);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: stretch;
+  align-items: flex-start;
+}
+
+.tel-logo {
+  position: absolute;
+  padding: 17px 350px;
+  a {
+    color: $footColor;
+    text-decoration: none;
+  }
+}
+
+.botton-trener {
+width: 90%;
+.dropdoun {
+  width: 90%;
+  position: relative;
+  display: inline-block;
+ margin: 0 674px;
+ padding-top: 20px;
+ cursor: pointer;
+
+  :hover .dropdoun-menu {
+display: block;
+ 
+ }
+h1 {
+  color: $H1Color;
+    
+}
+.dropdoun-label {
+width: 220px;
+  height: 59px;
+  border: 1px solid $navColor;
+  border-radius: 12px;
+
+}
+}
+
+.dropdoun-menu {
+  display: none;
+  position: absolute;
+  
+   li {
+padding: 5px;
+list-style-type: none;
+:hover {
+    color: $H1Color;
+  }
+a {
+  text-decoration: none;
+  color: $navColor; 
+  padding: 0 20px ;
+  
+  
+}
+
+  }
+  
+}
+  
+}

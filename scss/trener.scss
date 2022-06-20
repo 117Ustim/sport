@@ -1,0 +1,47 @@
+@import "style.scss";
+
+.block-trener {
+    width: 100%;
+    min-height: 100px;
+    padding: 40px 0;
+        
+        
+    
+        .trener-nav {
+           
+            width: 20%;
+            float: left;
+            
+            img {
+            width:206px;
+            height:144px;
+            
+                        
+            }
+            span{
+                font-size: 30px;
+            }
+            p {
+                color:$navColor;
+                width: 80%;
+                margin: -23px 40px;
+                font-size: 10px;
+            }
+        }
+       
+
+    }
+    .ip-2 {
+      
+        text-align: center;  
+        .menu-nav span {
+          font-size: 12px;
+           display: inline-block;
+          width: 120px;  
+             
+        }
+      }
+
+      .ip-3 {
+        padding: 5px 20px;
+      }

@@ -1,0 +1,59 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body, html {
+  background: #24282b;
+  box-sizing: border-box;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.container {
+  width: 100%;
+  min-height: 100px;
+}
+
+.block-pres {
+  width: 38%;
+  min-height: 200px;
+  margin: 30px 12px;
+}
+.block-pres img {
+  width: 532px;
+  height: 370px;
+}
+
+.block-pres-text {
+  width: 50%;
+  float: left;
+}
+.block-pres-text h1 {
+  padding: 100px 120px;
+  font-size: 140px;
+  color: #febd39;
+}
+.block-pres-text h3 {
+  padding: 90px 128px;
+  font-size: 38px;
+  color: #fff;
+  position: absolute;
+}
+.block-pres-text h4 {
+  height: 20%;
+  color: #fff;
+  position: absolute;
+  font-size: 46px;
+  padding: 252px 128px;
+}
+
+.block-line {
+  width: 83.5%;
+  border-top: 1px solid #35393c;
+  position: absolute;
+}
+
+/*# sourceMappingURL=pres.css.map */
