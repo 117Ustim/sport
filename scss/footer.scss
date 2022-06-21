@@ -21,17 +21,16 @@
     .cont {
       width: 100%;
       float: left;
-      
+
       a {
-       
         text-decoration: none;
-       margin: 12px 53px;
+        margin: 12px 53px;
         color: $footColor;
         font-size: 14px;
         display: flex;
       }
       img {
-           width: 30px;
+        width: 30px;
         height: 30px;
         margin: 0 10px;
         display: flex;
@@ -43,10 +42,9 @@
 .cont1 {
   width: 100%;
   float: left;
-  
-  
+
   img {
-       width: 76px;
+    width: 76px;
     height: 56px;
     margin: 0 124px;
     display: flex;
@@ -64,13 +62,13 @@
     width: 25%;
     padding: 15px 40px;
     font-size: 22px;
-    color:$navColor;
+    color: $navColor;
     float: left;
   }
   h4 {
     width: 50%;
-   float: left;
-    color:$navColor;
+    float: left;
+    color: $navColor;
     padding: 17px 0;
     font-size: 18px;
   }

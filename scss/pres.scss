@@ -1,44 +1,43 @@
 @import "style.scss";
 
 .block-pres {
-width: 38%;
-min-height: 200px;
-margin: 30px 12px;
+  width: 38%;
+  min-height: 200px;
+  margin: 30px 12px;
 
-img {
+  img {
     width: 532px;
     height: 370px;
-    
-}
+  }
 }
 
 .block-pres-text {
-    width: 50%;
-    
-float: left;
+  width: 50%;
 
-h1 {
+  float: left;
+
+  h1 {
     padding: 100px 120px;
     font-size: 140px;
-    color:$H1Color;
-}
-h3{
+    color: $H1Color;
+  }
+  h3 {
     padding: 90px 128px;
     font-size: 38px;
-    color:#fff; 
-    position: absolute; 
-}
-h4 {
-    height: 20%;
-    color:#fff; 
+    color: #fff;
     position: absolute;
-    font-size: 46px;  
+  }
+  h4 {
+    height: 20%;
+    color: #fff;
+    position: absolute;
+    font-size: 46px;
     padding: 252px 128px;
-}
+  }
 }
 
 .block-line {
-    width: 83.5%;    
-    border-top: 1px solid #35393c;
-    position: absolute;
+  width: 83.5%;
+  border-top: 1px solid #35393c;
+  position: absolute;
 }
