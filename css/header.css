@@ -98,9 +98,7 @@ body, html {
   width: 90%;
 }
 .botton-trener .dropdoun {
-  width: 90%;
   position: relative;
-  display: inline-block;
   margin: 0 674px;
   padding-top: 20px;
   cursor: pointer;

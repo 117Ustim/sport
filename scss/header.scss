@@ -83,52 +83,43 @@
 }
 
 .botton-trener {
-width: 90%;
-.dropdoun {
   width: 90%;
-  position: relative;
-  display: inline-block;
- margin: 0 674px;
- padding-top: 20px;
- cursor: pointer;
+  .dropdoun {
+   
+    position: relative;
+    margin: 0 674px;
+    padding-top: 20px;
+    cursor: pointer;
 
-  :hover .dropdoun-menu {
-display: block;
- 
- }
-h1 {
-  color: $H1Color;
-    
-}
-.dropdoun-label {
-width: 220px;
-  height: 59px;
-  border: 1px solid $navColor;
-  border-radius: 12px;
-
-}
-}
-
-.dropdoun-menu {
-  display: none;
-  position: absolute;
-  
-   li {
-padding: 5px;
-list-style-type: none;
-:hover {
-    color: $H1Color;
+    :hover .dropdoun-menu {
+      display: block;
+    }
+    h1 {
+      color: $H1Color;
+    }
+    .dropdoun-label {
+      width: 220px;
+      height: 59px;
+      border: 1px solid $navColor;
+      border-radius: 12px;
+    }
   }
-a {
-  text-decoration: none;
-  color: $navColor; 
-  padding: 0 20px ;
-  
-  
-}
 
+  .dropdoun-menu {
+    display: none;
+    position: absolute;
+
+    li {
+      padding: 5px;
+      list-style-type: none;
+      :hover {
+        color: $H1Color;
+      }
+      a {
+        text-decoration: none;
+        color: $navColor;
+        padding: 0 20px;
+      }
+    }
   }
-  
-}
-  
 }
